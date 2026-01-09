@@ -1,0 +1,100 @@
+.education-section {
+  margin-top: 80px;
+}
+
+/* Grid */
+.education-grid {
+  display: grid;
+  gap: 36px;
+}
+
+/* Card */
+.education-card {
+  background: linear-gradient(
+    180deg,
+    var(--card),
+    rgba(255, 255, 255, 0.02)
+  );
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 32px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Primary highlight (B.Tech) */
+/* .education-card.primary {
+  border-color: var(--primary);
+  box-shadow: 0 16px 40px rgba(37, 99, 235, 0.15);
+} */
+
+/* Hover */
+.education-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 22px 55px rgba(0, 0, 0, 0.3);
+}
+
+/* Header */
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.education-header h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Year */
+.education-duration {
+  font-size: 0.85rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+/* Subtitle */
+.education-subtitle {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin: 10px 0 16px;
+}
+
+/* CGPA */
+.education-cgpa {
+  font-weight: 500;
+  color: var(--text);
+}
+
+/* Board */
+.education-board {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+/* List */
+.education-card ul {
+  padding-left: 18px;
+}
+
+.education-card li {
+  font-size: 0.95rem;
+  color: var(--text);
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .education-section {
+    margin-top: 60px;
+  }
+
+  .education-card {
+    padding: 24px;
+  }
+
+  .education-header h3 {
+    font-size: 1.1rem;
+  }
+}

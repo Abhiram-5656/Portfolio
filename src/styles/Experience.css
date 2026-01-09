@@ -1,0 +1,41 @@
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.experience-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.experience-card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.experience-card .role {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.experience-card .duration {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+
+.experience-card ul {
+  padding-left: 20px;
+}
+
+.experience-card li {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin-bottom: 10px;
+  line-height: 1.6;
+}

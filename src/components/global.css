@@ -1,0 +1,80 @@
+/* =====================
+   CALM DESIGN SYSTEM
+===================== */
+
+:root {
+  /* Colors (soft dark, not pure black) */
+  --bg: #0e1116;
+  --surface: #141824;
+  --border: #1f2433;
+
+  --text: #e6e8ee;
+  --muted: #9aa4b2;
+
+  /* Subtle accent (not loud) */
+  --accent: #4f8cff;
+
+  /* Typography */
+  --font: "Inter", system-ui, sans-serif;
+
+  /* Radius */
+  --radius: 12px;
+
+  /* Motion */
+  --transition: 0.2s ease;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+}
+
+/* Sections */
+section {
+  padding: 72px 0;
+}
+
+section h2 {
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin-bottom: 32px;
+  letter-spacing: -0.3px;
+}
+
+/* Containers */
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px;
+}
+
+/* Links */
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.9;
+}

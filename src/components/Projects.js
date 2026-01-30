@@ -42,7 +42,7 @@ export default function Projects() {
               GitHub →
             </a>
                  <a
-              href="https://github.com/Abhiram-5656/Hotel-Booking-Management-System-MERN-STACK-"
+              href="https://hotel-booking-management-system1.vercel.app/"
               target="_blank"
               rel="noreferrer"
               className="deploy-btn"

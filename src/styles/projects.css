@@ -106,6 +106,17 @@
 .project-links a:hover {
   text-decoration: underline;
 }
+.deploy-btn {
+  background: rgba(79, 140, 255, 0.12); /* subtle accent */
+  border-color: rgba(79, 140, 255, 0.4);
+  color: var(--accent);
+}
+
+/* Live Demo hover */
+.deploy-btn:hover {
+  background: rgba(79, 140, 255, 0.2);
+  border-color: var(--accent);
+}
 
 /* Mobile */
 @media (max-width: 768px) {

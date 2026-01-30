@@ -41,6 +41,14 @@ export default function Projects() {
             >
               GitHub →
             </a>
+                 <a
+              href="https://your-deployed-link.com"
+              target="_blank"
+              rel="noreferrer"
+              className="deploy-btn"
+            >
+              Live Demo
+            </a>
           </div>
         </div>
 
@@ -75,6 +83,14 @@ export default function Projects() {
               rel="noreferrer"
             >
               GitHub →
+            </a>
+                 <a
+              href="https://your-deployed-link.com"
+              target="_blank"
+              rel="noreferrer"
+              className="deploy-btn"
+            >
+              Live Demo
             </a>
           </div>
         </div>

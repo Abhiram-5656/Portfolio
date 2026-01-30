@@ -42,7 +42,7 @@ export default function Projects() {
               GitHub →
             </a>
                  <a
-              href="https://your-deployed-link.com"
+              href="https://github.com/Abhiram-5656/Hotel-Booking-Management-System-MERN-STACK-"
               target="_blank"
               rel="noreferrer"
               className="deploy-btn"

@@ -1,6 +1,6 @@
 import "../styles/Home.css";
 import profileImg from "../assets/profile.png";
-import resume from "../assets/ABHIRAM_RESUME.pdf";
+import resume from "../assets/ABHIRAM_RESUME-3.pdf";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Home() {
